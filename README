@@ -1,0 +1,14 @@
+利用git客户端将项目上传到github上须知：
+1.需要上传.project文件，因为如果没有这个文件，就无法将项目导入到eclipse中
+2.导入到eclipse中的项目需要配置：
+	a.default output folder: app-framework/WebRoot/WEB-INF/classes
+	b.Project Facets下勾选
+		Dynamic Web Module
+		java
+
+	    右侧Runtimes 选中对应的tomcat
+
+	c.Deployment Assembly下删除WebContent添加如下,这个是在创建web项目的时候制定的创建 
+		Source							Deploy Path
+		/WebRoot						/
+	
