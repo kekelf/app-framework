@@ -11,4 +11,10 @@
 	c.Deployment Assembly下删除WebContent添加如下,这个是在创建web项目的时候制定的创建 
 		Source							Deploy Path
 		/WebRoot						/
+	d.导入jar 在WEB-INF目录下添加lib目录，将jar添加进去便可以了，在 Java Build Path下面的Libraries下的Web App Libraries下可以看到添加的jar包
 	
+
+websocket的搭建：客户端相服务器端发送链接，链接后，服务器端便可以不断向客户端推送信息,具体的搭建步骤：
+	1.添加jar包websocket.jar
+	2.具体java后端代码查看WebsocketStudy.java
+	3.前端代码查看WebsocketStudy.jsp
